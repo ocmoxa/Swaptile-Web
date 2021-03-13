@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://swaptile.ocmoxa.com/index.html</loc>
+        <lastmod>2021-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://swaptile.ocmoxa.com/index.ru.html</loc>
+        <lastmod>2021-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://swaptile.ocmoxa.com/index.uk.html</loc>
+        <lastmod>2021-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://swaptile.ocmoxa.com/index.vi.html</loc>
+        <lastmod>2021-03-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>

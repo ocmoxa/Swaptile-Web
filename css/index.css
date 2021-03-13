@@ -1,0 +1,109 @@
+body {
+    background-color: blueviolet;
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@keyframes hueRotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#phones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    animation-name: hueRotate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+
+#phones img {
+    height: 100vh;
+}
+
+
+footer h1 {
+    font-size: 36pt;
+}
+
+footer p {
+    font-size: 18pt;
+}
+
+footer * {
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    color: black;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#getit img {
+    max-width: 300px;
+}
+
+article {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 18pt;
+    padding: 30px;
+}
+
+#language-bar {
+    z-index: 1000000;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#language-bar a {
+    color: white;
+    margin: 0 10px;
+}
+
+#language-bar a:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 110vh) {
+    #phone-right {
+        display: none;
+    }
+
+    article {
+        font-size: 14pt;
+    }
+}
+
